@@ -37,10 +37,10 @@ except ImportError:
     from urlparse import parse_qs
     from urllib import urlencode
 
-from . import version
-
-
-__version__ = version.__version__
+#from . import version
+#
+#
+#__version__ = version.__version__
 
 
 VALID_API_VERSIONS = ["2.0", "2.1", "2.2", "2.3", "2.4"]
